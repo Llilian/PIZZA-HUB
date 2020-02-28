@@ -20,10 +20,9 @@ This project is a website for a pizza restaurant that shows details about the se
 ## BDD
 | Behaviour      | Input        | Output       |
 | :------------- | :----------: | -----------: |
-|  Enter your name  |   Lilian Njmabi |     |
-| Enter your Email Address  | njambililian93@gmail.com |   |
-| Enter your message or comment   |  I would love to work with you     |     |
-| Press Submit|     |Pop up "Lilian Njambi , we have received your message. Thank you for reaching out to us.|
+|  Enter your choice |   chicken-barbeque |     |
+| Enter the size  | large |   
+| Press Submit|     |Pop up "We have received your order.Kindly wait 20 minutes as it is being processed. Thank you for trusting us."|
 
 ## Contact Information
 
