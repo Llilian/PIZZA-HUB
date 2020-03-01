@@ -15,6 +15,7 @@ This project is a website for a pizza restaurant that shows details about the se
 * Bootstrap
 * jQuery
 * markdown
+
 ##SERVICE PROVIDED
  The restaurant is in a self-service  situation
 
