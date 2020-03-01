@@ -4,6 +4,7 @@
 }
 body{
   background-color: pink;
+  font-size:32px;
 }
 .wrapper{
   margin: 0 auto 0 60px;
@@ -19,7 +20,7 @@ th, tr {
   background-image:url("../images/pizza.jpg");
   background-size:100%;
   background-position:center;
-  color: white;
+  color:white;
 }
 .img-pizza{
   background-size:100%;
