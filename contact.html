@@ -20,12 +20,30 @@
 <h3>CONTACT</h3>
   <div class="img-pizza">
   <p>SEND E-MAIL</p>
-  <form class="contact-form" action="contactform.php" method="post">
-    <input type="text" name="name" placeholder="Full name">
-    <input type="text" name="mail" placeholder="Your e-mail">
-    <input type="text" name="subject" placeholder="Subject">
-    <textarea name="message" placeholder="Message"></textarea>
-    <button type="submit" name="submit">SEND MAIL</button>
+    <div class="contacts">
+    <div class="contact-form">
+    <h1 class="text-contact text-white">Contacts:</h1>
+    <div class="row">
+      <h1 class="text-white text-center"> Call Us </h1>
+      <p class="text-center">+254 000 5612</p>
+      <form>
+        <div class="email-info">
+          <div class="form fill-all-form">
+              <input type="email" class="form-control bg-transparent email" id="email" placeholder="Your-Email"
+                         required="">
+              <button type="submit" name="submit">SEND MAIL
+          </div>
+          </div>
+          <div class=" email-info text-center">
+              <button class="btn click-me" onclick="subscribe();">Subscribe</button>
+          </div>
+      </form>
+        </div>
+        <div class="col-sm-5">
+            <h4 class="text-center get-pizza">We love feedback..send us a mail</h4>
+        </div>
+        <div class="col-sm-1"></div>
+        </div>
   </div>
     </body>
 </html>
