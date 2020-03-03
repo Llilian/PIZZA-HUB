@@ -103,6 +103,25 @@
       <td>350</td>
     </tr>
   </table>
+  <label>Pick your pizza Flavour:</label>
+      <select class="custom" required>
+          <option value="Hawaiian">Hawaiian</option>
+          <option value="Mexican Fiesta">Mexican Fiesta</option>
+          <option value="Chessy salami">Chessy salami</option>
+          <option value="Something meaty">Something meaty</option>
+          <option value="BBQ Chicken">BBQ Chicken</option>
+          <option value="Chicken Mushroom">Chicken Mushroom</option>
+          <option value="Peri Peri Chicken">Peri Peri Chicken</option>
+          <option value="Tikka chicken">Tikka chicken</option>
+          <option value="Margherita">Margherita</option>
+          <option value="Cheese">Cheese</option>
+        </select>
+      <label>Chose your preferred Size:</label>
+      <select class="custom-select custom-select-md mb-3" id="size" required>
+          <option value="regular">Regular</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+      </select>
     <label for="crust">Choose your favorite Crust:</label>
        <select class="custom-select custom-select-md mb-3" id="crust" required>
            <option value="thin">Thin Crust @ Ksh. 100</option>
@@ -128,7 +147,27 @@
       </select>
       <label for="number">Number of Pizza's</label>
       <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
-
+      <button type="submit" class="btn btn-success checkout" id="checkout">
+                    Checkout
+                </button>
+      <div class="order" id="sum-order">
+      <h1 class="text" id="summary">Order Summary</h1>
+      <h2 class="text summary">Hello there, your order is as follows:</h2>
+      <ol id="list" class="text sum">
+      </ol>
+      <div class="data">
+          <div class="customerdata row">
+              <div class="col-sm-3"></div>
+              <form action="" class="form">
+                  <input type="text" class="form-control cdata" placeholder="Enter your Name:">
+                  <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
+                  <input type="text" class="form-control cdata" placeholder="Enter the location: ">
+                  <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
+              </form>
+              <div class="service">
+       <button class='deliver'>Make Delivery</button>
+       <button class='delivernot'>Pick Up</button>
+   </div>
 </div></strong>
 
     </body>
