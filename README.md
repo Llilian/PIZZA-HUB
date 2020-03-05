@@ -34,7 +34,8 @@ https://llilian.github.io/PIZZA-HUB/
 | Pizza crust    | `eg flatbread crust`   |
 | Pizza topping    | `eg Beef peperoni`  |
 | Number of pizzas   | `eg 6`   |
-| Delivery mode   | `eg No delivery`   |## CONTACT INFORMATION
+| Delivery mode   | `eg No delivery`   |
+## CONTACT INFORMATION
 
 If you have any questions,complains or contributions, please contact me at [njambililian93@gmail.com]
 

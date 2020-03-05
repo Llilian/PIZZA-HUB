@@ -1,175 +1,136 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>PIZZA HUB</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="js/scripts.js">
-    </head>
-    <body>
-      <h1> WELCOME </h1>
-      <h2>TO PIZZA HUB </h2>
-      <p> Amazing pizza's made for all </p>
-    <nav>
-      <ul>
-        <li><a href="index.html">home</a></li>
-        <li><a href="menu.html">menu</a></li>
-        <li><a href="aboutus.html">about us</a></li>
-        <li><a href="contact.html">contact</a></li>
-      </ul>
-    </nav>
-<h3>MENU</h3>
-  <div class="img-pizza"><strong>
-  <table>
-    <thead>
-      <th class="text-left">MEAT</th>
-      <th>large</th>
-      <th>medium</th>
-      <th>small</th>
-    </thead>
-    <tr>
-      <td class="text-left">HAWAIIAN</td>
-      <td>950</td>
-      <td>700</td>
-      <td>500</td>
-    </tr>
-    <tr>
-      <td class="text-left">MEXICAN FIESTA</td>
-      <td>1000</td>
-      <td>750</td>
-      <td>550</td>
-    </tr>
-    <tr>
-      <td class="text-left">CHESSY SALAMI</td>
-      <td>1050</td>
-      <td>800</td>
-      <td>600</td>
-    </tr>
-    <tr>
-      <td class="text-left">SOMETHING MEATY</td>
-      <td>1050</td>
-      <td>800</td>
-      <td>600</td>
-    </tr>
-  </table>
-  <table>
-    <tr>
-      <th class="text-left">CHICKEN</th>
-      <th>large</th>
-      <th>medium</th>
-      <th>small</th>
-    </tr>
-    <tr>
-      <td class="text-left">BBQ CHICKEN</td>
-      <td>1000</td>
-      <td>750</td>
-      <td>550</td>
-    </tr>
-    <tr>
-      <td class="text-left">CHICKEN & MUSHROOM</td>
-      <td>1000</td>
-      <td>750</td>
-      <td>550</td>
-    </tr>
-    <tr>
-      <td class="text-left">PERI PERI CHICKEN</td>
-      <td>1050</td>
-      <td>800</td>
-      <td>600</td>
-    </tr>
-    <tr>
-      <td class="text-left">TIKKA CHICKEN</td>
-      <td>1050</td>
-      <td>800</td>
-      <td>600</td>
-    </tr>
-  </table>
-  <table>
-    <tr>
-      <th class="text-left">VEGETARIAN</th>
-      <th>large</th>
-      <th>medium</th>
-      <th>small</th>
-    </tr>
-    <tr>
-      <td class="text-left">MARGHERITA</td>
-      <td>900</td>
-      <td>700</td>
-      <td>350</td>
-    </tr>
-    <tr>
-      <td class="text-left">CHEESE</td>
-      <td>900</td>
-      <td>700</td>
-      <td>350</td>
-    </tr>
-  </table>
-  <label>Pick your pizza Flavour:</label>
-      <select class="custom" required>
-          <option value="Hawaiian">Hawaiian</option>
-          <option value="Mexican Fiesta">Mexican Fiesta</option>
-          <option value="Chessy salami">Chessy salami</option>
-          <option value="Something meaty">Something meaty</option>
-          <option value="BBQ Chicken">BBQ Chicken</option>
-          <option value="Chicken Mushroom">Chicken Mushroom</option>
-          <option value="Peri Peri Chicken">Peri Peri Chicken</option>
-          <option value="Tikka chicken">Tikka chicken</option>
-          <option value="Margherita">Margherita</option>
-          <option value="Cheese">Cheese</option>
-        </select>
-      <label>Chose your preferred Size:</label>
-      <select class="custom-select custom-select-md mb-3" id="size" required>
-          <option value="regular">Regular</option>
-          <option value="medium">Medium</option>
-          <option value="large">Large</option>
-      </select>
-    <label for="crust">Choose your favorite Crust:</label>
-       <select class="custom-select custom-select-md mb-3" id="crust" required>
-           <option value="thin">Thin Crust @ Ksh. 100</option>
-           <option value="thick">Thick Crust @ Ksh. 150</option>
-           <option value="flatbread">FlatBread Crust @ sh. 180</option>
-           <option value="custom">Custom Crust @ sh. 280</option>
-       </select>
-    <label>Select Your favourite Toppings</label>
-      <select class="custom-select custom-select-md mb-3" id="toppings" required>
-          <option value="tomato">Tomato @ sh. 80</option>
-          <option value="onions">Onions @ sh. 80</option>
-          <option value="mushroom">Mushroom @ sh. 80</option>
-          <option value="greenpepper">Green Pepper @ sh. 80</option>
-          <option value=""></option>
-          <option value="olives">Olives @ sh. 120</option>
-          <option value="pineapple">Pineapple @ sh. 120</option>
-          <option value="sweetcorn">Sweet Corn @ sh. 120</option>
-          <option value="macon">Macon @ sh. 120</option>
-          <option value="mince">Mince @ sh. 120</option>
-          <option value=""></option>
-          <option value="beef">Beef Peperoni @ sh. 170</option>
-          <option value="chicken">Periperi Chicken @ sh. 170</option>
-      </select>
-      <label for="number">Number of Pizza's</label>
-      <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
-      <button type="submit" class="btn btn-success checkout" id="checkout">
-                    Checkout
-                </button>
-      <div class="order" id="sum-order">
-      <h1 class="text" id="summary">Order Summary</h1>
-      <h2 class="text summary">Hello there, your order is as follows:</h2>
-      <ol id="list" class="text sum">
-      </ol>
-      <div class="data">
-          <div class="customerdata row">
-              <div class="col-sm-3"></div>
-              <form action="" class="form">
-                  <input type="text" class="form-control cdata" placeholder="Enter your Name:">
-                  <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
-                  <input type="text" class="form-control cdata" placeholder="Enter the location: ">
-                  <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
-              </form>
-              <div class="service">
-       <button class='deliver'>Make Delivery</button>
-       <button class='delivernot'>Pick Up</button>
-   </div>
+<head>
+  <title>PIZZA HUB</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+<h1 style="color:white"> WELCOME </h1>
+<h2 style="color:white">TO PIZZA HUB </h2>
+<p style="color:white"> Amazing pizza's made for all </p>
+<nav>
+<ul>
+  <li><a href="index.html">home</a></li>
+  <li><a href="menu.html">menu</a></li>
+  <li><a href="aboutus.html">about us</a></li>
+  <li><a href="contact.html">contact</a></li>
+</ul>
+</nav>
+<h3 style="color:white">MENU</h3>
+<div class="img-pizza"><strong>
+<table>
+<thead>
+<th class="text-left">MEAT</th>
+</thead>
+<tr>
+<td class="text-left">HAWAIIAN</td>
+</tr>
+<tr>
+<td class="text-left">MEXICAN FIESTA</td>
+</tr>
+<tr>
+<td class="text-left">CHESSY SALAMI</td>
+</tr>
+<tr>
+<td class="text-left">SOMETHING MEATY</td>
+</tr>
+</table>
+<table>
+<tr>
+<th class="text-left">CHICKEN</th>
+</tr>
+<tr>
+<td class="text-left">BBQ CHICKEN</td>
+</tr>
+<tr>
+<td class="text-left">CHICKEN & MUSHROOM</td>
+</tr>
+<tr>
+<td class="text-left">PERI PERI CHICKEN</td>
+</tr>
+<tr>
+<td class="text-left">TIKKA CHICKEN</td>
+</tr>
+</table>
+<table>
+<tr>
+<th class="text-left">VEGETARIAN</th>
+</tr>
+<tr>
+<td class="text-left">MARGHERITA</td>
+</tr>
+<tr>
+<td class="text-left">CHEESE</td>
+</tr>
+</table>
+<label>Pick your pizza Flavour:</label>
+<select class="custom" required>
+    <option value="Hawaiian">Hawaiian</option>
+    <option value="Mexican Fiesta">Mexican Fiesta</option>
+    <option value="Chessy salami">Chessy salami</option>
+    <option value="Something meaty">Something meaty</option>
+    <option value="BBQ Chicken">BBQ Chicken</option>
+    <option value="Chicken Mushroom">Chicken Mushroom</option>
+    <option value="Peri Peri Chicken">Peri Peri Chicken</option>
+    <option value="Tikka chicken">Tikka chicken</option>
+    <option value="Margherita">Margherita</option>
+    <option value="Cheese">Cheese</option>
+  </select>
+<label>Chose your preferred Size:</label>
+<select class="custom-select custom-select-md mb-3" id="size" required>
+    <option value="regular">Regular @ksh1500</option>
+    <option value="medium">Medium @ksh1000</option>
+    <option value="large">Large @ksh500</option>
+</select>
+<label for="crust">Choose your favorite Crust:</label>
+ <select class="custom-select custom-select-md mb-3" id="crust" required>
+     <option value="thin">Thin Crust @ Ksh. 100</option>
+     <option value="thick">Thick Crust @ Ksh. 150</option>
+     <option value="flatbread">FlatBread Crust @ sh. 180</option>
+     <option value="custom">Custom Crust @ sh. 280</option>
+ </select>
+<label>Select Your favourite Toppings</label>
+<select class="custom-select custom-select-md mb-3" id="toppings" required>
+    <option value="tomato">Tikkasauce @ sh. 80</option>
+    <option value="onions">Onions @ sh. 80</option>
+    <option value="mushroom">Mushroom @ sh. 80</option>
+    <option value="greenpepper">sausages @ sh. 80</option>
+    <option value="olives">mozarellaCheese @ sh. 120</option>
+    <option value=""></option>
+</select>
+<label for="number">Number of Pizza's</label>
+<input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+<!-- <button type="submit" class="btn btn-success checkout" id="checkout">
+              Checkout
+          </button> -->
+
+<div class="order" id="sum-order">
+  <ol id="list" class="text sum">
+</ol>
+<div class="data">
+  <h3>For delivery services,enter your location details below</h3>
+    <div class="customerdata row">
+        <div class="col-sm-3"></div>
+        <form id="delivery">
+            <label for="name">Name</label>
+            <input class="form-control" type="text" name="" id="name" required="required">
+            <label for="location">Location</label>
+            <input class="form-control" type="text" id="location" placeholder="location...">
+            <label for="phonenumber">Phone Number</label>
+            <input class="form-control" type="tel" placeholder="07xxxxxxxx" id="number"> <br>
+            <button type="submit" name="button" id="submit">submit</button>
+        </form>
+
+        <button class='delivernot'>Pick Up</button>
+ <button type="submit" class="btn btn-success checkout" id="checkout">
+               Checkout
+           </button>
+
+</div>
 </div></strong>
 
-    </body>
+</body>
 </html>
